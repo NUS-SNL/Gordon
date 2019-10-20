@@ -1,7 +1,7 @@
 reset
 set term postscript eps enhanced color 25
 #set terminal eps enhanced color
-set output "some.eps"
+set output "graph.eps"
 
 set size 1, 0.75
 

@@ -12,7 +12,7 @@ def classify(tcpFile): #, filename, plotPath):
     answer = {}
     warnings.filterwarnings("ignore")
     try:
-        tcpDatas = np.loadtxt(fname=tcpFile, delimiter=' ', usecols=(0,2))
+        tcpDatas = np.loadtxt(fname=tcpFile, delimiter=' ', usecols=(1,2))
         tcpDatas[:,[0,-1]] = tcpDatas[:,[-1, 0]]
         tcpRounds = tcpDatas[:,0]
         tcpWindows = tcpDatas[:,-1]

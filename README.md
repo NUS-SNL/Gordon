@@ -34,9 +34,3 @@ Plot the results using ``` gnuplot plot.plt --persist ``` for multiple-trials te
 
 For single trial tests, you can simply open a ``` gnuplpot ``` shell and plot as ``` plot 'windows.csv' u 3:2 w lines ```
 
-## Running automated tests on multiple websites using ```start.py```
-
-```sudo dpkg-reconfigure dash```  
-When a prompt shows up, chose 'No'  
-Then, run ```python3 start.py <start point>```
-(currently, start processes the links provided in ```retestLinks.csv```)

@@ -17,3 +17,5 @@ sudo apt-get install -y wget
 sudo apt-get install -y psmisc
 sudo apt install -y net-tools
 
+#relocating iptables in some instances of Ubuntu
+sudo cp /etc/alternatives/iptables /sbin/iptables

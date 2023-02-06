@@ -5,8 +5,8 @@
 *
 *           Probe.c      : Base program. Registers nfqueue callback
 *			Arguments    : <target>		URL of the target host
-*					       <qd1>		First queuing delay to be emulated in ns
-*						   <qd2>        Second queuing delay to be emulated in ns
+*					       <qd1>		First queuing delay to be emulated in us
+*						   <qd2>        Second queuing delay to be emulated in us
 *						   <trans-time> No. of packets after which the delay must be changed
 *
 *		    Example		 : sudo iptables -I INPUT -p tcp -s 137.132.83.98 -m state --state ESTABLISHED -j NFQUEUE --queue-num 0
